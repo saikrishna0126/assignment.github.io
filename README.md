@@ -2,41 +2,41 @@
 ##### **Day 1**
 --------------------------------------------------------------------------------------------
 ##### What is Operating System?
-<font size="2">A operating system is system software that manages computer hardware and software resources and provides common services for computer programs. Operating system is a bridge between hardware of the computer and the users.</font>
+A operating system is system software that manages computer hardware and software resources and provides common services for computer programs. Operating system is a bridge between hardware of the computer and the users.
 
 ###### What is Linux?
-<font size="2">Linux is an open source operating system that is made up of the kernal, the base component o the OS and the tools, apps, and the services bundled along with it.<br>
+Linux is an open source operating system that is made up of the kernal, the base component o the OS and the tools, apps, and the services bundled along with it.<br>
 - Linux is free and do not have to worry about paying anthing at all.
 - Allowing you to make changes to its code and adding new functionality to be used by other users.
 - It is one of the best secure and stable OS, and it is very low chance of getting attacked by any hackers or virus
 - Linux does not require much memory and space effectively working. It  is very low system requirements.
-- We can run along with linux and windows in one system and within windows using virtual machines.</font><br>
+- We can run along with linux and windows in one system and within windows using virtual machines.<br>
 ##### Why choose Linux?
-- <font size="2">Linux is widely used for troubleshooting purpose for other computer.
+- Linux is widely used for troubleshooting purpose for other computer.
 - We want to build or host a website.
-- It is one of the secure and robust operating system and most stable one.</font>
+- It is one of the secure and robust operating system and most stable one.
 
 ##### Linux for DevOps
 
-<font size="2">Linux is important for DevOps because it provides an environment needed to manage infrastructure, automate tasks and troubleshoot issues. Linux is backbone of the devops.
+Linux is important for DevOps because it provides an environment needed to manage infrastructure, automate tasks and troubleshoot issues. Linux is backbone of the devops.
 - A core goal of DevOps is fast software delivery and building on existing infrastructure, linux is big part of that.
 - Linux and any other OS is an essential component of any IT operation, to know how to configure Linux for DevOps is essential to a continual and speedy software delivery process.
 - It enables the creation of design and security applications to a specific development environment or set of development objectives. Compared to Windows, there is a lot more control over how the operating system operates.
 - Most of the DevOps tools are Linux based tools and supports linux. DevOps engineer may easily and internally do all testing using a Linux-based operating system
-- Scalability enables fast delivery without forcing developers to compromise the quality of their codebase.</font>
+- Scalability enables fast delivery without forcing developers to compromise the quality of their codebase.
 
 ###### **Linux Architecture**
 
 ![alt text](image-3.png)
-<font size="2"> 
+
 - **Hardware**: It consists of all peripheral devices such as RAM, CPU, HDD etc... 
 - **Kernal**: It is the central component of an operating system. It means harware resuorces, system calls and provide essential services to applications.
 - **Shell**: Shell takes commands from the users and execute kernal functions. It is a commandline-interpreter that lets linux users control their operating systems with CLI (commandline interface).
-- **Utilities**: Provides a set of functions and routines that application use to  interact   with the kernal and perform various tasks.</font>
+- **Utilities**: Provides a set of functions and routines that application use to  interact   with the kernal and perform various tasks.
 
 ##### Linux Filesystem Hierarchy Structure
 ![alt text](image-11.png)
-<font size="2">
+
     1) `/root :` The top most directory of the filesystem. All files and directories start from the root directory.
     2) `/bin(Binaries:)` It contains user commands binaries or executables like ls, mv, cp, rm etc. Thease commands are available for all users.
     3) `/sbin(System Binaries):` It contains system commands binaries used for administrative tasks like ifconfig, fdisk, htop, dh -f, etc.
@@ -54,11 +54,11 @@
     15) `/sys(System):` A virtual filesystem providing information about devices, kernel modules, and other kernel-related data structures.
     16) `/tmp(Temporary Files):` A directory for temporary files created by applications and the system itself. Files in /tmp are typically deleted on reboot or after a certain period.
     17) `/usr(User Binaries & Read-Only Data):` Contains user utilities and applications. It is divided into subdirectories such as /usr/bin (non-essential command binaries), /usr/sbin (non-essential system binaries), /usr/lib (libraries), and /usr/share (shared data like icons, fonts, and documentation).
-    18) `/proc(proces):` This directory contains information about the system process. (/proc/cpuinfo), (/proc/meminfo). </font>
+    18) `/proc(proces):` This directory contains information about the system process. (/proc/cpuinfo), (/proc/meminfo). 
 
 ###### **Basic Linux Commands**
 
-<font size="2">
+
 
 - `ls :` This command is used to list the contents of the directory
 - `cd :` This command used to change the directories
@@ -66,11 +66,11 @@
 - `cp :` This command is used to copy the files
 - `mv :` This command is used to rename the files and directiries and move files or directories one directory to another 
 - `rm :` This command is used to remove file or directories 
-- `mkdir :` This command is used to create directories </font>
+- `mkdir :` This command is used to create directories 
 
 ###### **Linux File Permissions**
 
-<font size="2">
+
 
 - `File Access Modes :-` The permissions of a file are the first line of defense in the security of a linux system. The basic building blocks of linux permissions are the read,write, and execute permissions, which have been explained below 
 
@@ -109,32 +109,32 @@ chmod g+w filename: Changes directory permissions for group owners
 
 ##### **User and Group management**
 
-<font size="2">
+
 In Linux, user and group management is essential for controlling access to files, directories, and system resources. Overview of the key concepts and commands related to user and group management.
-User and group management in Linux allows administrators to control access to system resources efficiently. By assigning users to groups, administrators can manage permissions on files, directories, and processes, ensuring that the system is secure and users have appropriate levels of access.</font>
+User and group management in Linux allows administrators to control access to system resources efficiently. By assigning users to groups, administrators can manage permissions on files, directories, and processes, ensuring that the system is secure and users have appropriate levels of access.
 
 **1. Users in Linux**
-<font size="2">
+
  **`Users types:`**
  - **`Root User:`** This user is superuser. This user have complete control over the system. This user can perform any action, including administrative tasks.
  - **`Regular User:`** A non root users or non-priviliged user. This user have limited permissions. This user can have only permissions for modify files and directories they own.
  - **`System User:`** This users created by systems. This users don't have login access and used run background process.
-- A user have Username, UID(user id), Home directory of a user and Shell.</font>
+- A user have Username, UID(user id), Home directory of a user and Shell.
 
 **2. Groups in Linux**
-<font size="2">
+
 Groups are collections of users, which allow for easier management of file permissions and system access.
 - **Primary Group:** Every user is a member of a primary group, which is specified when the user is created. Files created by the user are usually associated with this group.
 
 - **Supplementary (Secondary) Groups:** Users can also belong to additional groups, which provide extra permissions.
-- A group have Group Name and Group ID. </font>
+- A group have Group Name and Group ID. 
 
 ###### **3. User and Group Files**
-<font size="2">
+
 
 - **/etc/passwd:** Contains user account information.
 - **/etc/group:** Contains group information.
-- **/etc/shadow:** Contains encrypted password information.</font>
+- **/etc/shadow:** Contains encrypted password information.
 
 - **Create user and Password changing and changing one user to another**
   - Creating user in linux using `useradd` and `adduser` and check the users list in linux using `/etc/passwd` command
@@ -310,7 +310,7 @@ The main functions of process management include starting, stopping, and arrangi
     - `--sync`  Invokes sync before getting usage info, ensuring the output is fully up to date. `df --sync`
     - `--help`  Displays a help message and exits. `df --help`
     - `--version` Displays version information and exits. `df --version`
-    - `-V`  Ignored, included for compatibility reasons. `df -V`</br>
+    - `-V`  Ignored, included for compatibility reasons. `df -V`
   
 
   - **`du`** To see the disk usage of the each file in bytes.
@@ -444,7 +444,7 @@ The main functions of process management include starting, stopping, and arrangi
     - Querying 
 ##### **Package managers in linux**
 
-<font size="2">
+
 
 1. **Repository :**
     - A linux repository is a storage location from which our system can install applications as well as Operating system updates.
@@ -457,10 +457,10 @@ The main functions of process management include starting, stopping, and arrangi
   
 3. **DPMS (Debian Package Management System):**
     - DPMS is the framework for managing software on Debian or Debian-like systems. Debian packages end with .deb
-    - At the core of DPMS is the dpkg application which works with the system providing several command line options.</font>
+    - At the core of DPMS is the dpkg application which works with the system providing several command line options.
 
   ###### **Automatic updates and package installers**
-  <font size="2">
+  
 
 1. **YUM (Yellowdog Updater Modified):**
     - yum is a popular packaging/updating tool for managing software on Linux systems. It is basically a wrapper program for RPM with enhancements.
@@ -661,10 +661,10 @@ CMD ["nginx"]
 #### **DAY-5,6**
 
 #### <center>**Working with Docker Volumes and Docker Networks**</center>
-<font size="2">
+
 
 #### **Docker Volumes:-**
-  </font>
+  
 In conatiner if we want to store data we can use volumes.Volume is nothing but a folder in container and volume can be shared to multiple containers.At a time we can share single volume and data inside volume will store on local, volumes are loosely coupled to conatainer.
 
 **Benifits of Docker Volumes**
@@ -680,7 +680,7 @@ In conatiner if we want to store data we can use volumes.Volume is nothing but a
 - **Tmpfs Mounts:** Tmpfs mounts are stored in the host's memory and not written to the host filesystem. They are useful when you need a lightweight and temporary storage option. Tmpfs mounts are created and managed by Docker, and their data resides in the host's memory. Once the container is stopped or removed, the data in a tmpfs mount is lost.
 
 #### **Docker Networking:-**
-<font size="2">
+
 Docker networking enables containers to communicate with each other and with external systems. It provides isolation, security, and flexibility by creating virtual networks that connect containers, allowing them to share data, services, and resources while maintaining separation.
 
 ###### **Benefits of Docker Networking**
