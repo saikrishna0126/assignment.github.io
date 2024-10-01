@@ -5,12 +5,12 @@
 A operating system is system software that manages computer hardware and software resources and provides common services for computer programs. Operating system is a bridge between hardware of the computer and the users.
 
 ###### What is Linux?
-Linux is an open source operating system that is made up of the kernal, the base component o the OS and the tools, apps, and the services bundled along with it.<br>
+Linux is an open source operating system that is made up of the kernal, the base component o the OS and the tools, apps, and the services bundled along with it.
 - Linux is free and do not have to worry about paying anthing at all.
 - Allowing you to make changes to its code and adding new functionality to be used by other users.
 - It is one of the best secure and stable OS, and it is very low chance of getting attacked by any hackers or virus
 - Linux does not require much memory and space effectively working. It  is very low system requirements.
-- We can run along with linux and windows in one system and within windows using virtual machines.<br>
+- We can run along with linux and windows in one system and within windows using virtual machines.
 ##### Why choose Linux?
 - Linux is widely used for troubleshooting purpose for other computer.
 - We want to build or host a website.
