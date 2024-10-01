@@ -660,7 +660,7 @@ CMD ["nginx"]
 ---------------------------------------------------------------------------------------------------------------------
 #### **DAY-5,6**
 
-#### <center>**Working with Docker Volumes and Docker Networks**</center>
+#### <center>Working with Docker Volumes and Docker Networks</center>
 
 
 #### **Docker Volumes:-**
@@ -672,7 +672,7 @@ In conatiner if we want to store data we can use volumes.Volume is nothing but a
  - **Sharing Data between Containers:** Volumes provide a way to share data between containers running on the same host. Multiple containers can access and modify the data within a volume, collaboration and decoupling applications. 
  - **Easy Backup and Restore:** Docker volumes simplify the process of backing up and restoring data. Since volumes exist independently of containers, you can easily create backups of the data stored within volumes and restore them as needed.
 
- ###### **Types of Docker Volumes**
+ ##### Types of Docker Volumes
  
 
 - **Named Volumes:** Named volumes are the most commonly used type of volume in Docker. They are created and managed by Docker itself. You can give a volume a specific name, and Docker takes care of creating and maintaining the volume for you. Named volumes are easy to use and provide better readability in your Docker commands.
