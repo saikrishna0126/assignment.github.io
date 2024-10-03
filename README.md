@@ -193,8 +193,11 @@ Groups are collections of users, which allow for easier management of file permi
 
 **1. Create, move and delete files and directories**
  - Created directories and files using `mkdir` and `touch` commands
-![alt text](<Screenshot 2024-09-06 003013-1.png>) Created directories spet, abc1, abc2 and abc3
-![alt text](<Screenshot 2024-09-06 003041.png>) Created fies file1.txt, file2.txt and file3.txt
+`Created directories spet, abc1, abc2 and abc3`
+![alt text](<Screenshot 2024-09-06 003013-1.png>)
+
+`Created fies file1.txt, file2.txt and file3.txt`
+![alt text](<Screenshot 2024-09-06 003041.png>)
 
 - Changing one directory to another using `cd` command
 ![alt text](<Screenshot 2024-09-06 003336.png>)
